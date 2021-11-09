@@ -1,0 +1,225 @@
+*{
+    font-family: quicksand, montserrat,'Open Sans';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.center{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #ad640a;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    color: #024059;
+}
+
+/* HEADER */
+
+header{
+    padding: 18px 180px;
+    background-image: url('../imagenes/escudo_LAOptimizado.png');
+    background-repeat: no-repeat;
+    background-position-x: 85px;
+    background-position-y: 25px;
+    color: #fff;
+    background-color: #024059;
+}
+
+
+header a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+
+#menu{
+    float: right;
+}
+
+#menu li:hover ul{
+    display: block;
+}
+
+#menu ul{
+    display: none;
+    position: absolute;
+    background-color: #024059;
+}
+
+#menu li{
+    display: inline-block;
+    position: relative;
+}
+
+nav li{
+    display: inline-block;
+    color: #F3F1ED;
+    list-style: none;
+    font-size: 24px;
+}
+/* -----------MAIN ---------------*/
+
+main{
+   max-width: 1920px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+
+
+h2, h3, h4{
+    color: #ad640a;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+section:first-of-type p{
+    padding-bottom: 795px;
+    background-image: url(../imagenes/losAngelesDiaOptimizado2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(2) h4{
+    font-size: 30px;
+    margin-bottom: 68px;
+}
+
+main section:nth-of-type(2) ul li p{
+    margin-left: 321px;
+    margin-right: 930px;
+    margin-top: 18px;
+}
+main section:nth-of-type(2) li:first-of-type{
+    height: 500px;
+    background-image: url('../imagenes/paseoPlayaOptimizado.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 1000px;
+    background-position-y: 113px;
+}
+
+main section:nth-of-type(2) li:last-child{
+    height: 600px;
+    background-image: url('../imagenes/UniversalStudioOptimizado.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 1000px;
+    background-position-y: 113px;
+}
+    
+main section:nth-of-type(2) ul li:nth-of-type(2) p{
+        margin-left: 900px;
+        margin-right: 350px;
+        margin-top: 15px;
+}
+
+main section:nth-of-type(2) li:nth-of-type(2){
+    height: 600px;
+    background-image: url('../imagenes/hollywoodBlvdOptimizado.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 312px;
+    background-position-y: 113px;
+}
+
+main ul:nth-of-type(2) li{
+    display: flex;
+    justify-content: space-between;
+}
+
+section:nth-of-type(3) h4{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+section:nth-of-type(3) h3{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+}
+
+.text{
+    width: 400px;
+    display: flex;    
+}
+
+section:nth-of-type(3) div{
+    display: flex;
+    vertical-align: top;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+} 
+
+/* FOOTER */
+
+footer{
+    margin-top: 150px;
+    background-color: #024059;
+    color: #fff;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
