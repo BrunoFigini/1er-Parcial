@@ -9,11 +9,6 @@ abbr{
     text-decoration: none;
 }
 
-.center{
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
 a{
     text-decoration: none;
     color: #fff;
@@ -35,14 +30,12 @@ p{
 
 header{
     padding: 18px 180px;
-    background-image: url('../imagenes/escudo_LAOptimizado.png');
-    background-repeat: no-repeat;
-    background-position-x: 85px;
-    background-position-y: 25px;
-    color: #fff;
     background-color: #024059;
 }
 
+h1{
+    color: #fff;
+}
 
 header a{
     text-decoration: none;
@@ -50,140 +43,170 @@ header a{
     padding: 10px;
 }
 
-h1{
-    display: inline-block;
-    font-size: 40px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    vertical-align: middle;
+nav div{
+    display: flex;
+    align-items: center;
 }
 
-#menu{
-    float: right;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#menu li:hover ul{
-    display: block;
+nav > ul{
+    display: flex;
+    justify-content: flex-end;
 }
 
-#menu ul{
-    display: none;
-    position: absolute;
-    background-color: #024059;
+nav ul li {
+    padding: 15px 20px 15px 20px;
 }
 
-#menu li{
-    display: inline-block;
-    position: relative;
-}
-
-nav li{
-    display: inline-block;
-    color: #F3F1ED;
-    list-style: none;
-    font-size: 24px;
-}
 /* -----------MAIN ---------------*/
+h2{
+    text-align: center;
+    font-size: 40px;
+  }
 
-main{
-   max-width: 1920px;
-   margin-left: 100px;
-   margin-right: 100px;
+iframe{
+    margin: 30px 0 50px 220px;
 }
 
+h2:first-of-type{
+    margin-bottom: 20px;
+}
 
 
 h2, h3, h4{
     color: #ad640a;
-    margin-top: 100px;
     text-align: center;
 }
 
-h2{
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 25px;
+/* --------- Actividades --------*/
+
+#playas + p, #hollywood + p, 
+#parques + p, #getty + p, #observatorio + p{
+    width: 40%;
+    padding-bottom: 400px;
+}
+
+#hollywood, #playas, #parques,
+#getty, #observatorio{
+    margin-bottom: 30px;
+}
+
+#actividades + p{
+    margin-bottom: 50px;
+}
+/*
+section:first-of-type div:nth-of-type(2){
+    background-image: url(/imagenes/playaLAOpt.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 75px;
+}
+
+section:first-of-type div:nth-of-type(4){
+    background-image: url(/imagenes/universalStudioOptimizado.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 80px;
+}
+
+section:first-of-type div:nth-of-type(6){
+    background-image: url(/imagenes/observatorioGriffithOpt.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 80px;
+}*/
+#clima{
+    width: 65%;
+    height: 600px;
+    margin: auto;
+    background-image: url(/imagenes/climaOpt.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 750px;
+    background-position-y: 70px;
+}
+section:first-of-type{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+section:nth-of-type(2) > p{
+    padding-bottom: 25px;
+}
+
+#clima > h2 + p, #clima > h2 + p + p{
+    width: 40%;
+    padding-left: 100px;
+}
+
+/* --------GASTRONOMIA --------*/
+
+#gastronomia + p{
+    width: 70%;
+    margin: auto;
+}
+
+#divColumnas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#divColumnas div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#divColumnas div p{
+    width: 300px;
+}
+
+section:nth-of-type(3) > p{
+    width: 65%;
+    margin: auto;
+}
+
+.divcont{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+.divcont p{
+    margin: auto;
+} 
+.divhijo{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
 }
 
 h3{
     font-size: 35px;
 }
 
-section:first-of-type p{
-    padding-bottom: 795px;
-    background-image: url(../imagenes/losAngelesDiaOptimizado2.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
+/*-----------NOTICIAS---------*/
+
+article{
+   margin: auto;
+   display: flex;
 }
 
-section:nth-of-type(2) h4{
-    font-size: 30px;
-    margin-bottom: 68px;
+main h1{
+    color: #ad640a;
+    font-size: 30px
 }
-
-main section:nth-of-type(2) ul li p{
-    margin-left: 321px;
-    margin-right: 930px;
-    margin-top: 18px;
-}
-main section:nth-of-type(2) li:first-of-type{
-    height: 500px;
-    background-image: url('../imagenes/paseoPlayaOptimizado.jpg');
-    background-repeat: no-repeat;
-    background-position-x: 1000px;
-    background-position-y: 113px;
-}
-
-main section:nth-of-type(2) li:last-child{
-    height: 600px;
-    background-image: url('../imagenes/UniversalStudioOptimizado.jpg');
-    background-repeat: no-repeat;
-    background-position-x: 1000px;
-    background-position-y: 113px;
-}
-    
-main section:nth-of-type(2) ul li:nth-of-type(2) p{
-        margin-left: 900px;
-        margin-right: 350px;
-        margin-top: 15px;
-}
-
-main section:nth-of-type(2) li:nth-of-type(2){
-    height: 600px;
-    background-image: url('../imagenes/hollywoodBlvdOptimizado.jpg');
-    background-repeat: no-repeat;
-    background-position-x: 312px;
-    background-position-y: 113px;
-}
-
-main ul:nth-of-type(2) li{
-    display: flex;
-    justify-content: space-between;
-}
-
-section:nth-of-type(3) h4{
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-section:nth-of-type(3) h3{
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-bottom: 30px;
-}
-
-.text{
-    width: 400px;
-    display: flex;    
-}
-
-section:nth-of-type(3) div{
-    display: flex;
-    vertical-align: top;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-} 
 
 /* FOOTER */
 
